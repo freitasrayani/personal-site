@@ -29,7 +29,7 @@ box-shadow:  26px 26px 58px #6862b4,
 
 @media (min-width:700px){
     .main-container {
-    
+        height: 100vh;
         font-family: 'Chilanka', cursive;
     }
     .title-txt {
@@ -39,7 +39,7 @@ box-shadow:  26px 26px 58px #6862b4,
         font-size: 1.2rem;
     }
     .main-section {
-        height: 100%;
+        height: 80%;
     }
     .Bx {
         display: flex;
@@ -47,14 +47,15 @@ box-shadow:  26px 26px 58px #6862b4,
         justify-content: center;
         align-items: center;
         width: 600px;
-        height: 55vh;
+        height: 350px;
         color: #fff;
   }
   .footer-container {
       width: 100%;
       text-align: center;  
       background: #9088fa;
-     
+      height: 12%;
+      
      }
   
 }
