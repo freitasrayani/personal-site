@@ -29,16 +29,17 @@ box-shadow:  26px 26px 58px #6862b4,
 
 @media (min-width:700px){
     .main-container {
+    
         font-family: 'Chilanka', cursive;
     }
-    h1 {
+    .title-txt {
         font-size: 3.5rem;
     }
-    p{
+    .txt{
         font-size: 1.2rem;
     }
     .main-section {
-        
+        height: 100%;
     }
     .Bx {
         display: flex;
@@ -46,7 +47,14 @@ box-shadow:  26px 26px 58px #6862b4,
         justify-content: center;
         align-items: center;
         width: 600px;
-        height: 60vh;
+        height: 55vh;
         color: #fff;
   }
+  .footer-container {
+      width: 100%;
+      text-align: center;  
+      background: #9088fa;
+     
+     }
+  
 }
